@@ -1,34 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DJ Freelancer</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+  <meta name="About" content="Who I am">
+  <meta name="certifications" content="degree/certification">
+  <meta name="skills" content="show what I can do">
+  <meta name="contact me" content="how to reach me">
+  <meta name="contact information" content="your information">
+  <meta name="payment" content="how to pay">
+  <meta name="reset" content="set back to empty page">
+  <link href="https://www.youtube.com/@deandanoble4681" rel="YouTube">
+  <link href="www.linkedin.com/in/deanda-noble-design-engineering" rel="LinkedIn">
+  <link href="www.google.com" rel="google">
+  <link href="./assets/css/style.css" rel="stylesheet">
+  <title>DJ Noble</title>
 </head>
+
 <body>
-    <header>
-        <h1>DJ Freelancer</h1>
-    </header>
+  <header>
+    <h1>DJ Noble</h1>
+  </header>
+  <section>
+    <h1>About</h1>
+    <img class="first element" src="C:\Users\jimmy\OneDrive\Pictures\Deanda J. Noble.jpgC:\Users\jimmy\OneDrive\Pictures\Deanda J. Noble.jpg" alt="I am a believer in the Lord King Jesus Christ" />
+  </section>
+  <section id="itemsection">
+    <h2>My certifications</h2>
+    <ul id="itemList">
+      <li>Media communication certificate</li>
+      <li>Media communication bachelor's degree</li>
+      <li>Media design of Fine Art Master's degree</li>
+      <li>Full stack flex software engineering Javascript Bootcamp certificate</li>
+    </ul>
+    <input type="text" id="description" placeholder="Add a description">
+    <button id="addButton">Add Item</button>
+  </section>
+  <section id="itemsection">
+    <h2>My skills</h2>
+    <ul id="itemList">
+      <li>Script writing</li>
+      <li>Video shooting</li>
+      <li>Video editing</li>
+      <li>Photo editing</li>
+      <li>Musical score writing</li>
+      <li>Logo</li>
+      <li>Brands</li>
+      <li>Web development</li>
+      <li>Web designer</li>
+    </ul>
+    <input type="text" id="description" placeholder="Add a description">
+    <button id="addButton">Add Item</button>
+  </section>
 
-    <main>
-        <section id="about">
-            <h2>About</h2>
-            <p>I am a believer in the Lord King Jesus Christ and I want to help
-              people through the aid of the holy spirit, using video, audio, and design.</p>
-        </section>
+  <section>Contact Me</section>
+  <section id="contactSection">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="responseMessage" style="color: green;"></p>
+  </section>
 
-        <section id="interactive">
-            <h2>Click Me!</h2>
-            <button id="clickMeButton">Click me!</button>
-            <p id="message"></p>
-        </section>
-    </main>
+  <section>Find Me</section>
+  <section id="socialMediaSection">
+    <h2>You can find me on LinkedIn</h2>
+    <button id="toggleSocialLinksButton">Show Social Link</button>
+    <div id="socialLinks">
+      <h3>Connect with me on:</h3>
+      <a href="https://www.linkedin.com/in/deanda-noble-design-engineering" target="_blank">LinkedIn</a>
+      <a href="https://www.youtube.com/@deandanoble4681" target="_blank">YouTube</a>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2024 DJ Freelancer</p>
-    </footer>
+  <h1>Finished</h1>
+  <h1>Form with Reset Alert</h1>
+  <form id="myForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
 
-    <script src="script.js"></script>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset" onclick="confirmReset(event)">Reset</button>
+  </form>
+
+  <footer>
+    <p>&copy; 2024 DJ Noble Website. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
