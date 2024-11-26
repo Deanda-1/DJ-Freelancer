@@ -19,16 +19,34 @@ h3 {
 }
 
 .section About {
-    
 }
 
 .section Certifications {
+    padding: 0;
+    list-style: none;
+    display: inline;
+    margin: 0 15px;
+    display: inline;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
 }
 
 .section Skills {
+    padding: 0;
+    list-style: none;
+    display: inline;
+    margin: 0 15px;
+    display: inline;
+    margin: 0 15px;color: white;
+    text-decoration: none;
 }
 
 .section Contact me {
+    padding: 0;
+    list-style: none;
+    display: inline;
+    margin: 0 15px;
 }
 
 .section Find me {
