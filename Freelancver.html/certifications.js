@@ -4,10 +4,10 @@ function displayCertifications() {
     "certifications-section"
   );
   const certifications = [
-    "Certification A - Institution A",
-    "Certification B - Institution B",
-    "Certification C - Institution C",
-    "Certification D - Institution D",
+    "Media communication Certificate - Full Sail University",
+    "Media Communication Bachelor Degree - Full Sail University",
+    "Master's of Fine Art Degree - Full Sail University",
+    "OSU Full-Stack Flex Software Coding Boot Camp: Full-Time Program - The Ohio State University",
   ];
 
   certificationsSection.innerHTML = `<ul>${certifications
