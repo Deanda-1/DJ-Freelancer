@@ -1,0 +1,61 @@
+title {
+    text-align: center;
+  }
+  
+  body {
+    background-color: #f39507;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  
+  .section-about,
+  .section-find-me {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center; /* Center text inside these sections */
+    height: 100vh;
+  }
+  
+  .section-certifications,
+  .section-skills,
+  .section-contact-me {
+    padding: 0;
+    list-style: none;
+    display: inline-block; /* Center items horizontally */
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center; /* Align text in each list item */
+  }
+  
+  /* Reset class for buttons or elements */
+  .reset {
+    background-color: beige;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #35424a;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Change background color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 5px #666; /* Simulate a press effect */
+    transform: translateY(4px); /* Move button down on press */
+  }
+  
