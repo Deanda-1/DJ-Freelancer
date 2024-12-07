@@ -35,6 +35,7 @@ title {
     color: white;
     text-decoration: none;
     text-align: center; /* Align text in each list item */
+    flex-direction: column;
   }
   
   /* Reset class for buttons or elements */
