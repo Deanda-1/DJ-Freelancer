@@ -26,9 +26,10 @@ function displayCertifications() {
     "certifications-section"
   );
   const certifications = [
-    "Certification A - Institution A",
-    "Certification B - Institution B",
-    "Certification C - Institution C",
+    "Media communication certificate - Full Sail University",
+    "Media communication bachelor's degree - Full Sail University",
+    "Media design of Fine Art Master's degree - Full Sail University",
+    "Full stack flex software engineering Javascript Bootcamp certificate - The Ohio State University",
   ];
 
   certificationsSection.innerHTML = `<ul>${certifications
@@ -41,7 +42,17 @@ document.addEventListener("DOMContentLoaded", displayCertifications);
 // skills.js
 function displaySkills() {
   const skillsSection = document.getElementById("skills-section");
-  const skills = ["JavaScript", "HTML", "CSS", "React", "Node.js"];
+  const skills = [
+    "Script writing",
+    "Video shooting",
+    "Video shooting",
+    "Photo editing",
+    "Musical score writing",
+    "Logo",
+    "Brands",
+    "Web development",
+    "Web designer",
+  ];
 
   skillsSection.innerHTML = `<ul>${skills
     .map((skill) => `<li>${skill}</li>`)
@@ -72,9 +83,8 @@ function displayFindMe() {
   findMeSection.innerHTML = `
           <h2>Find Me On</h2>
           <ul>
-              <li><a href="https://linkedin.com/in/yourprofile">LinkedIn</a></li>
-              <li><a href="https://twitter.com/yourprofile">Twitter</a></li>
-              <li><a href="https://github.com/yourprofile">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/deanda-noble-7a242592/">LinkedIn</a></li>
+              <li><a href="https://www.youtube.com/@deandanoble468">YouTube</a></li>
           </ul>
       `;
 }

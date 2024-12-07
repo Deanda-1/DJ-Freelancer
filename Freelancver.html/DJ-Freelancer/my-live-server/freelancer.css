@@ -22,6 +22,7 @@ title {
     max-width: 600px;
     text-align: center; /* Center text inside these sections */
     height: 100vh;
+    flex-direction: column;
   }
   
   .section-certifications,
