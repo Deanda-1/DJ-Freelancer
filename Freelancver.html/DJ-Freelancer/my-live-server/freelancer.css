@@ -11,6 +11,24 @@ title {
   h3 {
     text-align: center;
   }
+
+  .container {
+    display: flex;
+    justify-content: center; /* Centers child elements horizontally */
+    align-items: center; /* Centers child elements vertically (if height is specified) */
+    height: 100vh; /* Optional: Set to full viewport height */
+}
+
+.centered-section {
+    text-align: center; /* Centers text within the section */
+    margin: 20px; /* Optional: Add some spacing */
+    padding: 20px; /* Optional: Add padding for better appearance */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    max-width: 600px; /* Optional: Limit width of the section */
+}
+
+
+
   
   .section-about,
   .section-find-me {
